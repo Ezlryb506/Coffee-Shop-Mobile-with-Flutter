@@ -1,4 +1,4 @@
-# flutter_application_1
+# Mobile Coffee Shop
 
 A new Flutter project.
 
