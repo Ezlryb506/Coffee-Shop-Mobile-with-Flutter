@@ -138,7 +138,7 @@ class _DetailPageState extends State<DetailPage> {
                     }
                     return RichText(
                       text: TextSpan(
-                        text: readMore ? desc : desc.substring(0, 70) + '... ',
+                        text: readMore ? desc : '${desc.substring(0, 70)}... ',
                         style: const TextStyle(color: Colors.black87, fontSize: 15),
                         children: [
                           if (!readMore)
@@ -234,7 +234,7 @@ class _DetailPageState extends State<DetailPage> {
             const Spacer(),
             ElevatedButton(
               onPressed: () {
-                // TODO: Implementasi aksi beli
+                // 
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color.fromARGB(255, 209, 123, 74),

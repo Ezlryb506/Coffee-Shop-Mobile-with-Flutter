@@ -146,7 +146,7 @@ class ProductCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
             boxShadow: [
               BoxShadow(
-                color: Colors.brown.withOpacity(0.10),
+                color: Colors.brown,
                 blurRadius: 12,
                 offset: const Offset(0, 4),
               ),
@@ -242,7 +242,7 @@ class ProductCard extends StatelessWidget {
                           child: InkWell(
                             customBorder: const CircleBorder(),
                             onTap: () {
-                              // TODO: Tambah ke keranjang
+                              //
                             },
                             child: const Padding(
                               padding: EdgeInsets.all(10),

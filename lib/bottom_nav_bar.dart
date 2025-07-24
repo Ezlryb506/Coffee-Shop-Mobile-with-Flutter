@@ -46,7 +46,7 @@ class BottomNavBar extends StatelessWidget {
 class NavBarItem extends StatelessWidget {
   final IconData icon;
   final bool selected;
-  const NavBarItem({required this.icon, this.selected = false});
+  const NavBarItem({super.key, required this.icon, this.selected = false});
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +55,7 @@ class NavBarItem extends StatelessWidget {
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
         onTap: () {
-          // TODO: Navigasi antar halaman
+          //
         },
         child: Padding(
           padding: const EdgeInsets.all(8.0),
